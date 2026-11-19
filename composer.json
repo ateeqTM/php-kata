@@ -21,5 +21,8 @@
         "test": "phpunit",
         "lint": "phpcs --standard=PSR12 src tests index.php",
         "analyse": "phpstan analyse --level=8 src tests index.php"
+    },
+    "require": {
+        "nyholm/psr7": "^1.8"
     }
 }
