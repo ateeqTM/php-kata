@@ -1,0 +1,25 @@
+{
+    "name": "ateeq/php-kata",
+    "description": "PHP 8 kata",
+    "autoload": {
+        "psr-4": {
+            "Ateeq\\PhpKata\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ateeqTM",
+            "email": "ateeq.ashiq@ki5.co.uk"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13.4",
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpstan/phpstan": "^2.3"
+    },
+ "scripts": {
+        "test": "phpunit",
+        "lint": "phpcs --standard=PSR12 src tests index.php",
+        "analyse": "phpstan analyse --level=8 src tests index.php"
+    }
+}
