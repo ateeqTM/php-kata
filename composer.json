@@ -23,6 +23,7 @@
         "analyse": "phpstan analyse --level=8 src tests index.php"
     },
     "require": {
-        "nyholm/psr7": "^1.8"
+        "nyholm/psr7": "^1.8",
+        "psr/container": "^2.0"
     }
 }
